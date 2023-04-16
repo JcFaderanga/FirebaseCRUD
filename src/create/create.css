@@ -1,0 +1,70 @@
+.create-form{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+  
+} 
+.shadow{
+    box-shadow: rgba(0,0, 0, 0.55) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+    border-radius: 50px;
+    padding: 90px 100px;
+}
+h1{
+    color: green;
+}
+.details{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 20px 0;
+}
+.details:last-child{
+    height: 100px;
+}
+.details span{
+    color: white;
+    font-size:13px;
+}
+input{
+    width: 100%;
+    padding-left: 10px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.5);
+    color:White;
+    background:rgb(0, 0,0,.1);
+    box-shadow: rgba(0,0, 0, 0.55) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+}
+input::placeholder{
+    color:gray;
+}
+input:hover{
+    box-shadow: rgba(0, 255, 0, 0.15) 0px -50px 36px -28px inset;
+    border: 1px solid green;
+    
+}
+input:focus ,textarea:focus{
+    border: 1px solid green;
+    outline: none;
+    box-shadow: rgba(0, 255, 0, 0.12) 0px 2px 4px 0px, rgba(0, 255, 0, 0.32) 0px 2px 16px 0px;
+}
+button{
+    margin:40px 0;
+    width: 100%;
+    background: green;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(0, 255, 0, 0.12) 0px 2px 4px 0px, rgba(0, 255, 0, 0.32) 0px 2px 16px 0px;
+ 
+}
+
+
